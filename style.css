@@ -1,0 +1,111 @@
+
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 70px;
+    font-family: 'Lucida Handwriting', 'Brush Script MT', 'Courier New';
+    color: rgb(170, 123, 70);
+    text-align: center;
+    margin-bottom: 100px;
+    border-bottom: 3px solid rgb(105, 71, 8);
+}
+
+li {
+    font-family:'Courier New', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color:rgb(212, 158, 97);
+    background-color: rgba(177, 137, 91, 0.438);
+    text-align: left;
+}
+
+.auswahl {
+    display: inline-block;
+    margin: 30px 30px;
+    border: 5px solid rgb(105, 71, 8);
+    padding: 1em 2em;
+    color: brown;
+    text-decoration: none;
+}
+
+.auswahl:hover {
+    background-color: rgb(223, 186, 117);
+    color: beige;
+    border: 5px solid black;
+    border-style:ridge;
+}
+
+.rezeptauswahl {
+    background-color: transparent;
+    border: dotted rgb(255, 0, 234);
+    padding: 5px;
+    font-size: xx-large;
+    margin: 10px 75px;
+    color: brown;
+    display: inline;
+}
+
+
+
+img {
+    width: auto;
+    height: 500px;
+    margin: auto;
+    display: block;
+}
+
+.name {
+    font-size: 50px;
+}
+
+h2 {
+    color: antiquewhite;
+    background-color: rgba(106, 142, 35, 0.767);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.zutaten {
+    background-color: blanchedalmond;
+}
+
+.zutaten,
+.zub {
+    color: brown;
+}
+
+.text,
+.auchtext {
+    font-size: 20px;
+    font-weight:lighter;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    font-stretch:condensed;
+    font-style: oblique;
+    font-size: x-large;
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol .zub,
+#erstes {
+    background-color: transparent;
+}
+
+#erstes {
+    font-weight: bold;
+    color: red;
+}
+
+button {
+    text-align: center;
+    font-size: x-large;
+    margin: auto;
+    display: block;
+}
